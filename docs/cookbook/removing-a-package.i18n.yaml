@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record for removing-a-package.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/cookbook/removing-a-package.md
+/cookbook-removing-a-package-or-feature:
+  en: d696317020cd8a9a
+  zh: e172f7dd331048e2
+/cookbook-removing-a-package-or-feature/1-record-the-decision-first:
+  en: 204aba9695419968
+  zh: 512aebe249b0ef57
+/cookbook-removing-a-package-or-feature/2-delete-the-package:
+  en: db9fb1f465536a81
+  zh: 3d4c718328e66c80
+/cookbook-removing-a-package-or-feature/3-regenerate-the-generated-surfaces:
+  en: c54897ff14d30e79
+  zh: f4788a1c193ed05d
+/cookbook-removing-a-package-or-feature/4-repair-the-references:
+  en: 67b6faa3957db7b8
+  zh: ad9e4b3f7bcc63a6
+/cookbook-removing-a-package-or-feature/5-handle-durable-data:
+  en: 7b804223c92b3c2f
+  zh: 3b879250ffd41318
+/cookbook-removing-a-package-or-feature/6-verify:
+  en: 5d6ea53d020e40cf
+  zh: da036d5cbe381561
