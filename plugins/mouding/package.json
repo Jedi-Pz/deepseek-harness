@@ -1,0 +1,32 @@
+{
+  "name": "dsh-mouding",
+  "version": "0.1.0",
+  "description": "谋鼎智能体（藏宝智道 V11）：九角色五阶段投研的 DSH Agent preset bundle。",
+  "type": "module",
+  "license": "MIT",
+  "icon": "./icon.svg",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent-preset",
+    "investment-research"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "exports": {
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./prompts/*": "./prompts/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "prompts",
+    "icon.svg",
+    "locale/*.json",
+    "README.md"
+  ]
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="谋鼎">
+  <rect width="64" height="64" rx="14" fill="#16161a"/>
+  <g stroke="#e0a94a" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 24h28"/>
+    <path d="M16 19c3.5-2 7-2 10.5 0"/>
+    <path d="M37.5 19c3.5-2 7-2 10.5 0"/>
+    <path d="M20 24c0 9 3 14 12 14s12-5 12-14"/>
+    <path d="M24 38v7"/>
+    <path d="M32 38v8"/>
+    <path d="M40 38v7"/>
+  </g>
+  <circle cx="32" cy="30" r="4.5" fill="#e0a94a"/>
+</svg>
