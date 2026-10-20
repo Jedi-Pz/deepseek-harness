@@ -25,6 +25,7 @@ const PATTERNS = [
   'snapshots/**/system-prompt.expected.md',
   'packages/**/system-prompt.expected.md',
   'AGENTS.md',
+  'GLOSSARY-MAP.md',
   'packages/AGENTS.md',
   'snapshots/AGENTS.md',
 ]

@@ -24,7 +24,7 @@ harness 由 `packages/` 下的 npm 包组装而成，按能力系列分组：会
 <a id="package-groups"></a>
 ## 包分组
 
-每个包只属于一个组；新包加入现有组，新组则更新其自身 README 与本表。
+每个包只属于一个组；新包加入现有组，新组则更新其自身 README 与本表。领域词汇按上下文放在各自的 `GLOSSARY.md`，52 个组到上下文的映射见 [GLOSSARY-MAP.md](../GLOSSARY-MAP.md)。
 
 | 组 | 职责 |
 |---|---|

@@ -25,6 +25,7 @@ const PATTERNS = [
   'packages/*/*.md',
   'packages/*/*/*.md',
   'AGENTS.md',
+  'GLOSSARY-MAP.md',
   '.agents/skills/**/*.md',
 ]
 

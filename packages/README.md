@@ -24,7 +24,7 @@ The harness is assembled from npm packages under `packages/`, grouped by capabil
 <a id="package-groups"></a>
 ## Package groups
 
-Every package lives in exactly one group; new packages join existing groups, and a new group updates its own README and this table.
+Every package lives in exactly one group; new packages join existing groups, and a new group updates its own README and this table. Domain vocabulary lives in each context `GLOSSARY.md`, indexed with the 52-group mapping by [GLOSSARY-MAP.md](../GLOSSARY-MAP.md).
 
 | Group | Role |
 |---|---|
