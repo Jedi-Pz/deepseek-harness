@@ -1,0 +1,54 @@
+/* PROTOTYPE (throwaway): ExperimentUI full-window surface spike. */
+
+.launcher {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 500;
+  padding: 6px 10px;
+  border: 1px solid var(--dsw-alias-border-l3);
+  border-radius: 999px;
+  background: var(--dsw-alias-bg-base);
+  color: var(--dsw-alias-label-primary);
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.12);
+}
+
+.surface {
+  position: fixed;
+  inset: 0;
+  z-index: 950;
+  background: var(--dsw-alias-bg-base);
+  user-select: none;
+}
+
+.dragBand {
+  position: absolute;
+  inset: 8px 8px auto;
+  height: 28px;
+  -webkit-app-region: drag;
+}
+
+.blank {
+  position: absolute;
+  inset: 0;
+}
+
+.close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 1;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--dsw-alias-border-l3);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--dsw-alias-label-primary);
+  font: inherit;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+}

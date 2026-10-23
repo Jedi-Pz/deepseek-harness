@@ -398,6 +398,14 @@
     - id: ui-schedule
       name: '@deepseek-ai/dsh-client-ui-schedule'
 
+    # ── PROTOTYPE (throwaway) ────────────────────────────────────────────────
+    # ExperimentUI full-window mechanism spike: launcher pill + body-portaled
+    # blank stage. Remove before any shipped composition; the real package and
+    # bundle wiring is decided by the wayfinder ticket
+    # "决定 ExperimentUI 的包与 bundle 结构".
+    - id: experiment-ui-prototype
+      name: '@deepseek-ai/dsh-experimental-client-ui-experiment'
+
     # Goal surface: GoalBar in the input dock over the goal session projection.
     - id: ui-goal
       name: '@deepseek-ai/dsh-client-ui-goal'
